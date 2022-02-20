@@ -159,15 +159,15 @@ def mmmasuk():
         	print("%s [!] Token invalid "%(M));masuk()
     elif _jeeck_xnxcode_ in ('2', '02'):
     	jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  ================================================")
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m                JOIN GROUP WA + FB ")
+        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m                JOIN WA + FB ")
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  ================================================")
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (1 Komunitas termux indonesia [ FACEBOOK ] ")
+        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (1 Zainul umam [ FACEBOOK ] ")
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (2 shinzy TEAM [ WHATSAPP ] ")
         _hay_tayo_hay_nano_ = raw_input(" \n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Input : ")
         if _hay_tayo_hay_nano_ in(""):
         	print ("%s [+] Kentod lu "%(M));jeda(2)
         elif _hay_tayo_hay_nano_ in("1","01"):
-        	os.system("xdg-open https://www.facebook.com/groups/319376899697354")
+        	os.system("xdg-open https://www.facebook.com/100057370791997")
                 _kem_ = raw_input("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m [ ENTER ]")
                 mmmasuk() 
         elif _hay_tayo_hay_nano_ in("2","02"):
@@ -628,17 +628,17 @@ class ngentod:
                             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");_jeeck_X_nano_()
                     jeeck("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Pilih sesuka hati kalian")
                     print(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m B-Api [ FAST CRACK ]")
-                    print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow[ V1 ]]")
-                    print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free Fb [ Selow[ V2 ]]")
-                    jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow [ RECOMENDED V3 ]]")
+                    print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow V1 ]")
+                    print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free Fb [ Selow V2 ]")
+                    jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
                     _jeeck_X_nano_(pwx.split(','))
                     break
         elif __jeeck__ganz__X__sad__boy__ in ('O', 'o'):
             jeeck("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Pilih sesuka hati kalian")
             print(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m B-Api [ FAST CRACK ]")
-            print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow[ V1 ]]")
-            print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free fb[ Selow[ V2 ]]")
-            jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow [ RECOMENDED V3 ]]")
+            print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow V1 ]")
+            print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free fb[ Selow V2 ]")
+            jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
             self.langsung()
         else:
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");jeda(2);menu()
