@@ -203,7 +203,7 @@ def menu():
     print(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;34m Alamat ip : %s "%(IP))
     print(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;33m______________________________________________")
     print(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;35m START CRACK ")
-    print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Dump Id Temam/Publik ")
+    print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Dump Id Teman/Publik ")
     print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m DumpIid Reactionts Post ")
     print(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Dump Followers ")
     print(" \033[0;36m[\033[0;35m5\033[0;36m]\033[0;00m Ganti UserAgent ")
