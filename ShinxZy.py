@@ -260,15 +260,15 @@ def menu():
 
 def masuk():
     os.system('clear');banner()
-    jeeck("\n\033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m Facebook")
-    jeeck("\033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Instagram")
-    jeeck("\033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Donasi")
-    jeeck("\033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Tutor Dump Token")
-    jeeck("\033[0;36m[\033[0;35m5\033[0;36m]\033[0;00m preliminary ]\033[0;33m[ \033[0;35mPENDAHULUAN PENGGUNA \033[0;33m]")
-    jeeck("\033[0;36m[\033[0;35m6\033[0;36m]\033[0;00m DUMP USER-AGENT")
-    mrjreckxnanoxxz = raw_input("\n\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Input : ")
+    jeeck("\n\033[1;36m[\033[0;35m1\033[0;36m]\033[0;00m Facebook")
+    jeeck("\033[1;36m[\033[1;35m2\033[1;36m]\033[0;00m Instagram")
+    jeeck("\033[1;36m[\033[1;35m3\033[1;36m]\033[0;00m Donasi")
+    jeeck("\033[1;36m[\033[1;35m4\033[1;36m]\033[0;00m Tutor Dump Token")
+    jeeck("\033[1;36m[\033[1;35m5\033[1;36m]\033[0;00m preliminary ]\033[0;33m[ \033[0;35mPENDAHULUAN PENGGUNA \033[0;33m]")
+    jeeck("\033[1;36m[\033[1;35m6\033[@;36m]\033[0;00m DUMP USER-AGENT")
+    mrjreckxnanoxxz = raw_input("\n\033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Input : ")
     if mrjreckxnanoxxz in(""):
-    	jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Wronk Input Cook")
+    	jeeck("\033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Wronk Input Cook")
     elif mrjreckxnanoxxz in ('2','02'):
     	gobloklu()
 #    	menu_instagg()
@@ -487,14 +487,14 @@ def publik(_jeeck_ganteng_kagakadapacar_,headers=header):
         for a in z['friends']['data']:
             id.append(a['id'] + '<=>' + a['name'])
             _jeeck_X_nano_sadcook_.write(a['id'] + '<=>' + a['name'] + '\n')
-            print("\r \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Mengumpulkan id : %s"%(str(len(id)))),
+            print("\r \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Mengumpulkan id : %s"%(str(len(id)))),
             sys.stdout.flush();jeda(0.0050)
         _jeeck_X_nano_sadcook_.close()
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File tersimpan di : %s"%(file))
+        jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m File tersimpan di : %s"%(file))
         raw_input('\n%s [ %senter %s] '%(B,O,B))
         menu()
     except Exception as e:
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
+        jeeck(" \033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
 # DUMP PUBLIK
 #def pkublik(_jeeck_ganteng_kagakadapacar_,headers=header):
  #   try:
@@ -506,9 +506,9 @@ def followers(_jeeck_ganteng_kagakadapacar_,headers=header):
         os.mkdir('dump')
     except:pass
     try:
-    	jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Ketik 'me' untuk dump id followers sendiri")
-        idt = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Target id : ")
-        batas = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Max dump : ")
+    	jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Ketik 'me' untuk dump id followers sendiri")
+        idt = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Target id : ")
+        batas = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Max dump : ")
         gas = requests.get('https://graph.facebook.com/%s?access_token=%s'%(idt,_jeeck_ganteng_kagakadapacar_))
         nm = json.loads(gas.text)
         file = ('dump/'+nm['first_name']+'.json').replace(' ', '_')
@@ -518,14 +518,14 @@ def followers(_jeeck_ganteng_kagakadapacar_,headers=header):
         for a in z['data']:
             id.append(a['id'] + '<=>' + a['name'])
             _jeeck_X_nano_sadcook_.write(a['id'] + '<=>' + a['name'] + '\n')
-            jeeck("\r \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Mengumpulkan id : %s"%(str(len(id)))),
+            jeeck("\r \033[1;36m[\033[1;35m+\033[@;36m]\033[0;00m Mengumpulkan id : %s"%(str(len(id)))),
             sys.stdout.flush();jeda(0.0050)
         _jeeck_X_nano_sadcook_.close()
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File tersimpan di : %s"%(file))
+        jeeck(" \033[@;36m[\033[1;35m+\033[1;36m]\033[0;00m File tersimpan di : %s"%(file))
         raw_input('\n%s [ %senter %s] '%(P,B,P))
         menu()
     except Exception as e:
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
+        jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
 # 
 def postingan(_jeeck_ganteng_kagakadapacar_,headers=header):
     try:
@@ -558,7 +558,7 @@ class ngentod:
         self.id = []
     def _jeeck_xnxcode_iy(self):
         try:
-            jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Contoh file dump : dump/asu.json")
+            jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Contoh file dump : dump/asu.json")
             self.apk = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File dump : ")
             self.id = open(self.apk).read().splitlines()
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Jumlah id : %s"%(len(self.id)))
