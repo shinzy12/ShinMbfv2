@@ -197,19 +197,19 @@ def menu():
     banner()
     
 #    print (' Waktu : %s'%(datetime.now().strftime('%H:%M:%S'))
-    print(" \033[0;36m[\033[1;35m+\033[1;36m]\033[1;33m______________________________________________")
-    print(" \033[0;36m[\033[1;35m+\033[1;36m]\033[1;32m Username  : %s "%(nama))
-    print(" \033[0;36m[\033[1;35m+\033[1;36m]\033[1;33m User id   : %s "%(id))
-    print(" \033[0;36m[\033[1;35m+\033[1;36m]\033[1;34m Alamat ip : %s "%(IP))
-    print(" \033[0;36m[\033[1;35m+\033[1;36m]\033[1;33m______________________________________________")
-    print(" \033[0;36m[\033[1;35m1\033[1;36m]\033[1;32m START CRACK ")
-    print(" \033[0;36m[\033[1;35m2\033[1;36m]\033[1;36m Dump Id Teman/Publik ")
-    print(" \033[0;36m[\033[1;35m3\033[1;36m]\033[1;36m DumpIid Reactionts Post ")
-    print(" \033[0;36m[\033[1;35m4\033[1;36m]\033[1;36m Dump Followers ")
-    print(" \033[0;36m[\033[1;35m5\033[1;36m]\033[1;36m Ganti UserAgent ")
-    print(" \033[0;36m[\033[1;35m6\033[1;36m]\033[1;36m Chek Hasil Crack ")
-    print(" \033[0;36m[\033[1;35m7\033[1;36m]\033[1;36m Chek Opsi Akun CP ")
-    print(" \033[0;36m[\033[1;35m0\033[1;36m]\033[1;91m Delet [ TOKEN ] ")
+    print(" \033[1;36m[\033[1;35m+\033[1;36m]\033[1;33m______________________________________________")
+    print(" \033[1;36m[\033[1;35m+\033[1;36m]\033[1;32m Username  : %s "%(nama))
+    print(" \033[1;36m[\033[1;35m+\033[1;36m]\033[1;33m User id   : %s "%(id))
+    print(" \033[1;36m[\033[1;35m+\033[1;36m]\033[1;34m Alamat ip : %s "%(IP))
+    print(" \033[1;36m[\033[1;35m+\033[1;36m]\033[1;33m______________________________________________")
+    print(" \033[1;36m[\033[1;35m1\033[1;36m]\033[1;32m START CRACK ")
+    print(" \033[1;36m[\033[1;35m2\033[1;36m]\033[1;36m Dump Id Teman/Publik ")
+    print(" \033[1;36m[\033[1;35m3\033[1;36m]\033[1;36m DumpIid Reactionts Post ")
+    print(" \033[1;36m[\033[1;35m4\033[1;36m]\033[1;36m Dump Followers ")
+    print(" \033[1;36m[\033[1;35m5\033[1;36m]\033[1;36m Ganti UserAgent ")
+    print(" \033[1;36m[\033[1;35m6\033[1;36m]\033[1;36m Chek Hasil Crack ")
+    print(" \033[1;36m[\033[1;35m7\033[1;36m]\033[1;36m Chek Opsi Akun CP ")
+    print(" \033[1;36m[\033[1;35m0\033[1;36m]\033[1;91m Delet [ TOKEN ] ")
     __jeeck__gz__x__xnxcode__ = raw_input(" \n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Menu : ")
     if __jeeck__gz__x__xnxcode__ == '':
         print(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");jeda(2);menu()
@@ -550,7 +550,7 @@ def postingan(_jeeck_ganteng_kagakadapacar_,headers=header):
         raw_input('\n%s [ %senter %s] '%(P,B,P))
         menu()
     except Exception as e:
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
+        jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Gagal dump id / akun kemungkinan mati / id privat ");exit()
 # ###
 class ngentod:
 
@@ -625,20 +625,20 @@ class ngentod:
                                     except: pass
                             os.remove(self.apk);exit()
                         else:
-                            jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");_jeeck_X_nano_()
+                            jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Isi dengan benar");_jeeck_X_nano_()
                     jeeck("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Pilih sesuka hati kalian")
-                    print(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m B-Api [ FAST CRACK ]")
-                    print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow V1 ]")
-                    print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free Fb [ Selow V2 ]")
-                    jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
+                    print(" \033[1;36m[\033[1;35m1\033[1;36m]\033[0;00m B-Api [ FAST CRACK ]")
+                    print(" \033[1;36m[\033[1;35m2\033[1;36m]\033[0;00m Mbasic [ Selow V1 ]")
+                    print(" \033[1;36m[\033[1;35m3\033[1;36m]\033[0;00m Free Fb [ Selow V2 ]")
+                    jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
                     _jeeck_X_nano_(pwx.split(','))
                     break
         elif __jeeck__ganz__X__sad__boy__ in ('O', 'o'):
-            jeeck("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Pilih sesuka hati kalian")
-            print(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m B-Api [ FAST CRACK ]")
-            print(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow V1 ]")
-            print(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Free fb[ Selow V2 ]")
-            jeeck(" \033[0;36m[\033[0;35m4\033[0;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
+            jeeck("\n \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Pilih sesuka hati kalian")
+            print(" \033[1;36m[\033[1;35m1\033[1;36m]\033[0;00m B-Api [ FAST CRACK ]")
+            print(" \033[1;36m[\033[1;35m2\033[1;36m]\033[0;00m Mbasic [ Selow V1 ]")
+            print(" \033[1;36m[\033[1;35m3\033[1;36m]\033[0;00m Free fb[ Selow V2 ]")
+            jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
             self.langsung()
         else:
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");jeda(2);menu()
