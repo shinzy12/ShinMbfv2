@@ -132,7 +132,7 @@ def banner():
 \033[0;32m | AHH TERSERAH LU LAH KONTOL, HAPPY CRACK DAY
 \033[0;32m  ××××××××××××××××××××××××××××××××××××××××××××××××××××
 
-\033[0;35m ••••••••••••••••••••TURU BANG•••••••••••••••••••••••••
+\033[0;35m ••••••••••••••••••••••TURU BANG•••••••••••••••••••••••••
 ''')
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def mmmasuk():
