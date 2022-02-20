@@ -124,11 +124,11 @@ def folder(): # < Buat follder
 # BUAT LOGO
 def banner():
 	print('''
-\033[0;32m  ____________________________________________________
-\033[0;32m | MULTI BRUTE FACEBOOK SHINZYV3                      |
-\033[0;32m | CREATE BY MUHAMMAD ZAINUL UMAM                     |
-\033[0;32m | TRIMAKASIH TELAH MENGGUNAKAN SCRIPT INI            |
-\033[0;32m | JIKA ADA BUG SEGERAH HUBUNGI ADMIN(WA)085740559154 |
+\033[0;35m    _______ _____   _____  _______ _____   _____  -
+\033[0;34m    |      |     |  |    |    |   |     | |     | |
+\033[0;33m    |_____ |_____|  |    |    |   |_____| |_____| |____
+\033[0;32m | TRIMAKASIH TELAH MENGGUNAKAN SCRIPT INi
+\033[0;32m | JIKA ADA BUG SEGERAH HUBUNGI ADMIN(WA)085740559154
 \033[0;32m  ××××××××××××××××××××××××××××××××××××××××××××××××××××
 
 \033[0;33m •PLIS JANGAN DI JUAL BELIKAN SCRIPT INI CAPEK GW BUATNYA ASU•
