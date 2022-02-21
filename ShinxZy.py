@@ -991,7 +991,6 @@ import requests
 import time
 class BaseCheck():
     def __init__(self, url):
-        self.IP address  = "123.108.98.89"
         self.http_proxy  = "http://user:pw@proxy:5678"
         self.https_proxy = "http://user:pw@proxy:5678"
         self.ftp_proxy   = "http://user:pw@proxy:5678"
