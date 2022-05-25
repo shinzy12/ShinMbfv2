@@ -53,6 +53,11 @@ class Main:
 		self.cp = []
 		self.loop = 0
                 try:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
 
 			else:
 				key = ("\033[0;91m -")
