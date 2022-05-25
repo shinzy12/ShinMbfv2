@@ -38,12 +38,6 @@ def runtxt(z):
         time.sleep(0.03)
 
 
-
-def helpnote():
-	print("%s [*] CHAT ME ON WHATSAPP FOR BATTER EXPERIENCE  :)"%(G)
-	exit(" [*] WHATSAPP :  https://wa.me/+92349446675")
-
-
 def notice():
 
  
