@@ -52,6 +52,7 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
+                try:
 
 			else:
 				key = ("\033[0;91m -")
