@@ -36,18 +36,6 @@ def runtxt(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.03)
-
-
-def notice():
-
- 
-
-	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m FOR FREE APPROVAL SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m BYPASS ADMIN WHATSAPP >> wa.me/+923494462675")
-	subprocess.check_output(["am", "start", "wa.me/+923494462675"])
-
-
         
 plist = (platform.uname())[2]
 basex = plist
